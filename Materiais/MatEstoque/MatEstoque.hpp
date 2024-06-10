@@ -2,7 +2,7 @@
 #define MATESTOQUE
 
 #include <string>
-#include "Material.hpp"
+#include "../Material/Material.hpp"
 
 using std::string;
 
