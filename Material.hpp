@@ -15,11 +15,11 @@ class Material{
     Material(string nome, int id, double preco);    //Construtor padrão
 
     string getNome_Material(); 
-    string setNome_Material();
+    void setNome_Material(const string& nome);
     int getId();
-    int setId();
+    void setId(int id);
     double getPreco();
-    double setPreco();
+    void setPreco(double preco);
 
     virtual ~Material();    //Destrutor
 };
