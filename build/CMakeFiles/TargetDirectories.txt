@@ -1,0 +1,2 @@
+/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles/edit_cache.dir
+/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles/rebuild_cache.dir
