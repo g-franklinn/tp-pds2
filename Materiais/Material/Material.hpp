@@ -21,7 +21,7 @@ class Material{
     double getPreco();
     void setPreco(double preco);
 
-    virtual ~Material();    //Destrutor
+    ~Material();    //Destrutor
 };
 
 #endif
