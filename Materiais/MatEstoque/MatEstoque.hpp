@@ -16,10 +16,10 @@ class MatEstoque: public Material{
         MatEstoque(int quantidade, int id, string nome);   //Construtor padrão
 
         int getQuantidade();
-        getLocal();
-        baixaEstoque();
-        adicionar();
-        setLocal();
+        string getLocal();
+        void baixaEstoque(int quantidade);
+        void adicionar(int quantidade);
+        void setLocal(int id, const string& nome);
 
         virtual ~MatEstoque();         // Destrutor
 };
