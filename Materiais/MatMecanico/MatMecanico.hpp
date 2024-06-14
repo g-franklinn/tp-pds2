@@ -7,7 +7,7 @@
 using std::string;
 
 class MatMecanico : public Material{
-    private:
+    protected:
         string ip_protec;
         double peso;
         

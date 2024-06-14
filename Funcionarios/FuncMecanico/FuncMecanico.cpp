@@ -1,6 +1,9 @@
 #include "../Funcionarios.hpp"
 #include "../../Materiais/Material/Material.hpp"
 #include "../../Materiais/MatMecanico/MatMecanico.hpp"
+#include "../../Materiais/MatMecanico/Parafuso/Parafuso.hpp"
+#include "../../Materiais/MatMecanico/Porca/Porca.hpp"
+#include "../../Materiais/MatMecanico/MatMecanico.hpp"
 #include "FuncMecanico.hpp"
 #include <iostream>
 
@@ -12,7 +15,7 @@ using namespace std;
 FuncMecanico::FuncMecanico(string nome, int id, string funcao) 
     : Funcionarios(nomeFuncionario, idFuncionario, funcaoFuncionario){}
 
-/*FuncMecanico::colocarMaterial(){
+void FuncMecanico::colocarMaterial(){
         int opcao;
 
     cout << "Escolha uma opção: 1- Parafuso, 2- Porca, 3- Eixo";
@@ -23,7 +26,8 @@ FuncMecanico::FuncMecanico(string nome, int id, string funcao)
             int quantidade;
             cout << "Quantos parafusos?" << endl;
             cin >> quantidade;
-            Material::idMaterial += quantidade
+            Parafuso material;
+            material.quantidade += quantidade;
             break;
         case 2:
             cout << "Você escolheu a opção 2." << endl;
@@ -36,4 +40,4 @@ FuncMecanico::FuncMecanico(string nome, int id, string funcao)
             break;
     }
 
-}*/
+}
