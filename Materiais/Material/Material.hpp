@@ -6,7 +6,7 @@
 using std::string;
 
 class Material{
-    private: 
+    protected: 
     string nomeMaterial;
     int idMaterial;
     double preco;

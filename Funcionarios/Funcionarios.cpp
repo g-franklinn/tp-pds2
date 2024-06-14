@@ -1,7 +1,11 @@
 #include "Funcionarios.hpp"
 #include <string>
 
-Funcionarios::Funcionarios(){}
+Funcionarios::Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario){
+    this -> nomeFuncionario = nomeFuncionario;
+    this -> idFuncionario = idFuncionario;
+    this -> funcaoFuncionario =  funcaoFuncionario;
+}
 
 string Funcionarios::getNome_Funcionario(){
     return nomeFuncionario;

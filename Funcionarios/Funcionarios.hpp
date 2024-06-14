@@ -6,14 +6,14 @@
 using std::string; 
 
 class Funcionarios {
-    private:
+    protected:
     string nomeFuncionario;
     int idFuncionario;
     string funcaoFuncionario;
 
     public:
     //Construtor padrão
-    Funcionarios();
+    Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
 
     string getNome_Funcionario();
     void setNome_Funcionario(const string& nomeFuncionario);
