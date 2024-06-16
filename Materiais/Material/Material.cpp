@@ -1,8 +1,11 @@
 #include "Material.hpp" 
 #include <string>
+#include <iostream>
+using namespace std;
 
-using std::string;
 
+
+Material::Material(){};
 Material::Material(string nome, int id, double preco)
     : nomeMaterial(nome), idMaterial(id), preco (preco) {}
 
@@ -30,5 +33,7 @@ void Material::setPreco(double preco){
     this -> preco = preco;
 }
 
-Material::~Material() {};
+Material::~Material() {
+    cout<<"Deletando material"<<endl;
+};
 

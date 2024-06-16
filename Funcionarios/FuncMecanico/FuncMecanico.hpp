@@ -16,9 +16,14 @@ class FuncMecanico : public Funcionarios{
 
     public:
 
+        FuncMecanico();
         FuncMecanico(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
-        void colocarMaterial() override;
-        void retirarMaterial() override;
+        void colocarMaterial(Eixo eixo, int q);
+        void colocarMaterial(Porca porca, int q);
+        void colocarMaterial(Parafuso parafuso, int q);
+        void retirarMaterial(Eixo eixo, int q);
+        void retirarMaterial(Porca porca, int q);
+        void retirarMaterial(Parafuso parafuso, int q);
         ~FuncMecanico();
 
 };

@@ -1,5 +1,10 @@
 #include "Funcionarios.hpp"
 #include <string>
+#include <iostream>
+
+using namespace std;
+
+Funcionarios::Funcionarios(){};
 
 Funcionarios::Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario){
     this -> nomeFuncionario = nomeFuncionario;
@@ -31,4 +36,6 @@ void Funcionarios::setFuncao_Funcionario(const string& funcao){
     funcaoFuncionario = funcao;
 }
 
-Funcionarios::~Funcionarios() {};
+Funcionarios::~Funcionarios() {
+    cout<< "deletando funcionario"<<endl;
+};

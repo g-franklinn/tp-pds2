@@ -13,6 +13,7 @@ class Funcionarios {
 
     public:
     //Construtor padrão
+    Funcionarios();
     Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
 
     string getNome_Funcionario();
@@ -22,9 +23,7 @@ class Funcionarios {
     string getFuncao_Funcionario();
     void setFuncao_Funcionario(const string& funcaoFuncionario);
 
-    //Métodos abstratos 
-    virtual void colocarMaterial() = 0;
-    virtual void retirarMaterial() = 0;
+    
 
     virtual ~Funcionarios(); //Destrutor 
 

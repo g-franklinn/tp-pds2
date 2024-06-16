@@ -12,6 +12,7 @@ class Material{
     double preco;
 
     public:
+    Material();
     Material(string nome, int id, double preco);    //Construtor padrão
 
     string getNome_Material(); 

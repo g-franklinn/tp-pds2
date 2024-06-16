@@ -12,6 +12,7 @@ class MatMecanico : public Material{
         double peso;
         
     public:
+        MatMecanico();
         MatMecanico(string nome, int id, double preco, string ip_protec, double peso); //Construtor
         ~MatMecanico(); //Destrutor
 };
