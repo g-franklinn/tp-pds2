@@ -9,7 +9,12 @@ file(GLOB MATERIAIS_SOURCES "Materiais/Material/*.cpp")
 file(GLOB MATESTOQUE_SOURCES "Materiais/MatEstoque/*.cpp")
 file(GLOB MATELETRICO_SOURCES "Materiais/MatEletrico/*.cpp")
 file(GLOB MATMECANICO_SOURCES "Materiais/MatMecanico/*.cpp")
-
+file(GLOB EIXO_SOURCES "Materiais/MatMecanico/Eixo/*.cpp")
+file(GLOB DISJUNTOR_SOURCES "Materiais/MatEletrico/Disjuntor/*.cpp")
+file(GLOB MOTOR_SOURCES "Materiais/MatEletrico/Motor/*.cpp")
+file(GLOB RELE_SOURCES "Materiais/MatEletrico/Rele/*.cpp")
+file(GLOB PARAFUSO_SOURCES "Materiais/MatMecanico/Parafuso/*.cpp")
+file(GLOB PORCA_SOURCES "Materiais/MatMecanico/Porca/*.cpp")
 
 # Combine all source files into a single list
 set(SOURCES
@@ -20,6 +25,13 @@ set(SOURCES
     ${MATESTOQUE_SOURCES}
     ${MATELETRICO_SOURCES}
     ${MATMECANICO_SOURCES}
+    ${EIXO_SOURCES}
+    ${DISJUNTOR_SOURCES}
+    ${MOTOR_SOURCES}
+    ${RELE_SOURCES}
+    ${PARAFUSO_SOURCES}
+    ${PORCA_SOURCES}
+
     main.cpp
 )
 
@@ -30,7 +42,8 @@ include_directories(Funcionarios
                     Materiais/Material
                     Materiais/MatEstoque
                     Materiais/MatEletrico
-                    Materiais/MatMecanico)
+                    Materiais/MatMecanico
+                    )
 
 # Create an executable
 add_executable(my_program ${SOURCES})

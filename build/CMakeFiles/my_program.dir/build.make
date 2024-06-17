@@ -167,10 +167,94 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.cpp" -o CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.s
 
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: ../Materiais/MatMecanico/Eixo/Eixo.cpp
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.cpp" > CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.cpp" -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.s
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o: ../Materiais/MatEletrico/Disjuntor/Disjuntor.cpp
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp" > CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp" -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.s
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o: ../Materiais/MatEletrico/Motor/Motor.cpp
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.cpp" > CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.cpp" -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.s
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: ../Materiais/MatEletrico/Rele/Rele.cpp
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.cpp" > CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.cpp" -o CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.s
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o: ../Materiais/MatMecanico/Parafuso/Parafuso.cpp
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.cpp" > CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.cpp" -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.s
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o: ../Materiais/MatMecanico/Porca/Porca.cpp
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o -MF CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o.d -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.cpp"
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.cpp" > CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.i
+
+CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.cpp" -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s
+
 CMakeFiles/my_program.dir/main.cpp.o: CMakeFiles/my_program.dir/flags.make
 CMakeFiles/my_program.dir/main.cpp.o: ../main.cpp
 CMakeFiles/my_program.dir/main.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/my_program.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/my_program.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/main.cpp.o -MF CMakeFiles/my_program.dir/main.cpp.o.d -o CMakeFiles/my_program.dir/main.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/main.cpp"
 
 CMakeFiles/my_program.dir/main.cpp.i: cmake_force
@@ -190,6 +274,12 @@ my_program_OBJECTS = \
 "CMakeFiles/my_program.dir/Materiais/MatEstoque/MatEstoque.cpp.o" \
 "CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o" \
 "CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o" \
+"CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o" \
 "CMakeFiles/my_program.dir/main.cpp.o"
 
 # External object files for target my_program
@@ -202,10 +292,16 @@ my_program: CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatEstoque/MatEstoque.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o
+my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o
 my_program: CMakeFiles/my_program.dir/main.cpp.o
 my_program: CMakeFiles/my_program.dir/build.make
 my_program: CMakeFiles/my_program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable my_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable my_program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
