@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdexcept> // Para usar as exceções padrão do C++
 #include "Funcionarios/Funcionarios.hpp"
-#include "Funcionarios/FuncEletrico.hpp"
-#include "Funcionarios/FuncMecanico.hpp"
+#include "Funcionarios/FuncEletrico/FuncEletrico.hpp"
+#include "Funcionarios/FuncMecanico/FuncMecanico.hpp"
 #include "Materiais/Material/Material.hpp"
 #include "Materiais/MatEletrico/MatEletrico.hpp"
 #include "Materiais/MatEletrico/Disjuntor/Disjuntor.hpp"
@@ -34,13 +34,10 @@ int main() {
         // Exibição de informações dos funcionários
         cout << "Informações dos Funcionários:" << endl;
 
-        cout << "Funcionário Elétrico: ";
-        elec1.exibirInformacoes();
+        cout << "Funcionário Elétrico: " << elec1.getNome_Funcionario() << elec1.getId_Funcionario() << elec1.getFuncao_Funcionario() << endl;
         cout << endl;
 
-        cout << "Funcionário Mecânico: ";
-        mec1.exibirInformacoes();
-        cout << endl;
+
 
         // Teste de adicionar e retirar materiais elétricos
         cout << "Adicionando e retirando materiais elétricos..." << endl;

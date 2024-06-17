@@ -116,6 +116,211 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named my_program
+
+# Build rule for target.
+my_program: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_program
+.PHONY : my_program
+
+# fast build rule for target.
+my_program/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/build
+.PHONY : my_program/fast
+
+Funcionarios/FuncEletrico/FuncEletrico.o: Funcionarios/FuncEletrico/FuncEletrico.cpp.o
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.o
+
+# target to build an object file
+Funcionarios/FuncEletrico/FuncEletrico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.cpp.o
+
+Funcionarios/FuncEletrico/FuncEletrico.i: Funcionarios/FuncEletrico/FuncEletrico.cpp.i
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.i
+
+# target to preprocess a source file
+Funcionarios/FuncEletrico/FuncEletrico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.i
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.cpp.i
+
+Funcionarios/FuncEletrico/FuncEletrico.s: Funcionarios/FuncEletrico/FuncEletrico.cpp.s
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.s
+
+# target to generate assembly for a file
+Funcionarios/FuncEletrico/FuncEletrico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.s
+.PHONY : Funcionarios/FuncEletrico/FuncEletrico.cpp.s
+
+Funcionarios/FuncMecanico/FuncMecanico.o: Funcionarios/FuncMecanico/FuncMecanico.cpp.o
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.o
+
+# target to build an object file
+Funcionarios/FuncMecanico/FuncMecanico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.cpp.o
+
+Funcionarios/FuncMecanico/FuncMecanico.i: Funcionarios/FuncMecanico/FuncMecanico.cpp.i
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.i
+
+# target to preprocess a source file
+Funcionarios/FuncMecanico/FuncMecanico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.i
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.cpp.i
+
+Funcionarios/FuncMecanico/FuncMecanico.s: Funcionarios/FuncMecanico/FuncMecanico.cpp.s
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.s
+
+# target to generate assembly for a file
+Funcionarios/FuncMecanico/FuncMecanico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.s
+.PHONY : Funcionarios/FuncMecanico/FuncMecanico.cpp.s
+
+Funcionarios/Funcionarios.o: Funcionarios/Funcionarios.cpp.o
+.PHONY : Funcionarios/Funcionarios.o
+
+# target to build an object file
+Funcionarios/Funcionarios.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.o
+.PHONY : Funcionarios/Funcionarios.cpp.o
+
+Funcionarios/Funcionarios.i: Funcionarios/Funcionarios.cpp.i
+.PHONY : Funcionarios/Funcionarios.i
+
+# target to preprocess a source file
+Funcionarios/Funcionarios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.i
+.PHONY : Funcionarios/Funcionarios.cpp.i
+
+Funcionarios/Funcionarios.s: Funcionarios/Funcionarios.cpp.s
+.PHONY : Funcionarios/Funcionarios.s
+
+# target to generate assembly for a file
+Funcionarios/Funcionarios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.s
+.PHONY : Funcionarios/Funcionarios.cpp.s
+
+Materiais/MatEletrico/MatEletrico.o: Materiais/MatEletrico/MatEletrico.cpp.o
+.PHONY : Materiais/MatEletrico/MatEletrico.o
+
+# target to build an object file
+Materiais/MatEletrico/MatEletrico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o
+.PHONY : Materiais/MatEletrico/MatEletrico.cpp.o
+
+Materiais/MatEletrico/MatEletrico.i: Materiais/MatEletrico/MatEletrico.cpp.i
+.PHONY : Materiais/MatEletrico/MatEletrico.i
+
+# target to preprocess a source file
+Materiais/MatEletrico/MatEletrico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.i
+.PHONY : Materiais/MatEletrico/MatEletrico.cpp.i
+
+Materiais/MatEletrico/MatEletrico.s: Materiais/MatEletrico/MatEletrico.cpp.s
+.PHONY : Materiais/MatEletrico/MatEletrico.s
+
+# target to generate assembly for a file
+Materiais/MatEletrico/MatEletrico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.s
+.PHONY : Materiais/MatEletrico/MatEletrico.cpp.s
+
+Materiais/MatEstoque/MatEstoque.o: Materiais/MatEstoque/MatEstoque.cpp.o
+.PHONY : Materiais/MatEstoque/MatEstoque.o
+
+# target to build an object file
+Materiais/MatEstoque/MatEstoque.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEstoque/MatEstoque.cpp.o
+.PHONY : Materiais/MatEstoque/MatEstoque.cpp.o
+
+Materiais/MatEstoque/MatEstoque.i: Materiais/MatEstoque/MatEstoque.cpp.i
+.PHONY : Materiais/MatEstoque/MatEstoque.i
+
+# target to preprocess a source file
+Materiais/MatEstoque/MatEstoque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEstoque/MatEstoque.cpp.i
+.PHONY : Materiais/MatEstoque/MatEstoque.cpp.i
+
+Materiais/MatEstoque/MatEstoque.s: Materiais/MatEstoque/MatEstoque.cpp.s
+.PHONY : Materiais/MatEstoque/MatEstoque.s
+
+# target to generate assembly for a file
+Materiais/MatEstoque/MatEstoque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatEstoque/MatEstoque.cpp.s
+.PHONY : Materiais/MatEstoque/MatEstoque.cpp.s
+
+Materiais/MatMecanico/MatMecanico.o: Materiais/MatMecanico/MatMecanico.cpp.o
+.PHONY : Materiais/MatMecanico/MatMecanico.o
+
+# target to build an object file
+Materiais/MatMecanico/MatMecanico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.o
+.PHONY : Materiais/MatMecanico/MatMecanico.cpp.o
+
+Materiais/MatMecanico/MatMecanico.i: Materiais/MatMecanico/MatMecanico.cpp.i
+.PHONY : Materiais/MatMecanico/MatMecanico.i
+
+# target to preprocess a source file
+Materiais/MatMecanico/MatMecanico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.i
+.PHONY : Materiais/MatMecanico/MatMecanico.cpp.i
+
+Materiais/MatMecanico/MatMecanico.s: Materiais/MatMecanico/MatMecanico.cpp.s
+.PHONY : Materiais/MatMecanico/MatMecanico.s
+
+# target to generate assembly for a file
+Materiais/MatMecanico/MatMecanico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.s
+.PHONY : Materiais/MatMecanico/MatMecanico.cpp.s
+
+Materiais/Material/Material.o: Materiais/Material/Material.cpp.o
+.PHONY : Materiais/Material/Material.o
+
+# target to build an object file
+Materiais/Material/Material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o
+.PHONY : Materiais/Material/Material.cpp.o
+
+Materiais/Material/Material.i: Materiais/Material/Material.cpp.i
+.PHONY : Materiais/Material/Material.i
+
+# target to preprocess a source file
+Materiais/Material/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.i
+.PHONY : Materiais/Material/Material.cpp.i
+
+Materiais/Material/Material.s: Materiais/Material/Material.cpp.s
+.PHONY : Materiais/Material/Material.s
+
+# target to generate assembly for a file
+Materiais/Material/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.s
+.PHONY : Materiais/Material/Material.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +329,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... my_program"
+	@echo "... Funcionarios/FuncEletrico/FuncEletrico.o"
+	@echo "... Funcionarios/FuncEletrico/FuncEletrico.i"
+	@echo "... Funcionarios/FuncEletrico/FuncEletrico.s"
+	@echo "... Funcionarios/FuncMecanico/FuncMecanico.o"
+	@echo "... Funcionarios/FuncMecanico/FuncMecanico.i"
+	@echo "... Funcionarios/FuncMecanico/FuncMecanico.s"
+	@echo "... Funcionarios/Funcionarios.o"
+	@echo "... Funcionarios/Funcionarios.i"
+	@echo "... Funcionarios/Funcionarios.s"
+	@echo "... Materiais/MatEletrico/MatEletrico.o"
+	@echo "... Materiais/MatEletrico/MatEletrico.i"
+	@echo "... Materiais/MatEletrico/MatEletrico.s"
+	@echo "... Materiais/MatEstoque/MatEstoque.o"
+	@echo "... Materiais/MatEstoque/MatEstoque.i"
+	@echo "... Materiais/MatEstoque/MatEstoque.s"
+	@echo "... Materiais/MatMecanico/MatMecanico.o"
+	@echo "... Materiais/MatMecanico/MatMecanico.i"
+	@echo "... Materiais/MatMecanico/MatMecanico.s"
+	@echo "... Materiais/Material/Material.o"
+	@echo "... Materiais/Material/Material.i"
+	@echo "... Materiais/Material/Material.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

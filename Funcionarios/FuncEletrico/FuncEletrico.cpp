@@ -11,7 +11,7 @@
 
 using namespace std; 
 
-FuncEletrico::FuncEletrico{};
+FuncEletrico::FuncEletrico(){};
 
 FuncEletrico::FuncEletrico(string nome, int id, string funcao) 
     : Funcionarios(nomeFuncionario, idFuncionario, funcaoFuncionario){}
@@ -25,12 +25,12 @@ void FuncEletrico::colocarMaterial(Motor motor, int quant){
         
 }
 void FuncEletrico::colocarMaterial(Rele rele, int quant){
-    rele.adicionarPRele(rele, quant);
+    rele.adicionarRele(rele, quant);
         
 };
 
 void FuncEletrico::retirarMaterial(Disjuntor disjuntor, int quant){
-    disjuntor.retirarEixo(disjuntor, quant);
+    disjuntor.retirarDisjuntor(disjuntor, quant);
 };
 void FuncEletrico::retirarMaterial(Motor motor, int quant){
      motor.retirarMotor(motor, quant);
