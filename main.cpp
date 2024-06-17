@@ -16,7 +16,6 @@
 using namespace std;
 
 int main() {
-    try {
         // Criação de funcionários
         FuncEletrico elec1("Guido", 101, "Eletricista");
         FuncMecanico mec1("Barbara", 102, "Mecânica");
@@ -66,13 +65,6 @@ int main() {
         mec1.colocarMaterial(porca1, 100);
         mec1.retirarMaterial(porca1, 50);
 
-    } catch (const invalid_argument& e) {
-        cerr << "Erro de argumento inválido: " << e.what() << endl;
-    } catch (const out_of_range& e) {
-        cerr << "Erro de fora de alcance: " << e.what() << endl;
-    } catch (const exception& e) {
-        cerr << "Erro inesperado: " << e.what() << endl;
-    }
-
+ 
     return 0;
 }
