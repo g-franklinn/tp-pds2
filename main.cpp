@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdexcept> // Para usar as exceções padrão do C++
 #include "Funcionarios/Funcionarios.hpp"
 #include "Funcionarios/FuncEletrico.hpp"
 #include "Funcionarios/FuncMecanico.hpp"
