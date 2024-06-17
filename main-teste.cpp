@@ -14,7 +14,7 @@
 #include "../Materiais/MatMecanico/Porca/Porca.hpp"
 
 TEST_CASE("Criação de Funcionário Elétrico") {
-    FuncEletrico elec1("Carlos Silva", 101, "Eletricista");
+    FuncEletrico elec1("Guido", 101, "Eletricista");
 
     REQUIRE(elec1.getNome_Funcionario() == "Carlos Silva");
     REQUIRE(elec1.getId_Funcionario() == 101);
@@ -22,7 +22,7 @@ TEST_CASE("Criação de Funcionário Elétrico") {
 }
 
 TEST_CASE("Criação de Funcionário Mecânico") {
-    FuncMecanico mec1("Ana Souza", 102, "Mecânica");
+    FuncMecanico mec1("Barbara", 102, "Mecânica");
 
     REQUIRE(mec1.getNome_Funcionario() == "Ana Souza");
     REQUIRE(mec1.getId_Funcionario() == 102);
