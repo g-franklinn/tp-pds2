@@ -14,17 +14,17 @@ using namespace std;
 int main() {
     // Criação de funcionários
     FuncEletrico elec1("Guido", 101, "Eletricista");
-    FuncMecanico mec1("Barbara", 102, "Mecânica");
+    FuncMecanico mec1("Barbara", 102, "Mecanica");
 
     // Criação de materiais elétricos
-    Disjuntor disj1("Disjuntor Type A", 201, 50.0, "IP20", 220, 10, 100);
-    Motor motor1("Motor Type B", 202, 150.0, "IP44", 220, 15, 50);
-    Rele rele1("Rele Type C", 203, 20.0, "IP20", 220, 5, 200);
+    Disjuntor disj1("Disjuntor Tipo A", 201, 50.0, "IP20", 220, 10, 100);
+    Motor motor1("Motor Tipo B", 202, 150.0, "IP44", 220, 15, 50);
+    Rele rele1("Rele Tipo C", 203, 20.0, "IP20", 220, 5, 200);
 
     // Criação de materiais mecânicos
-    Eixo eixo1("Eixo Type D", 301, 30.0, "IP20", 5.0, 75);
-    Parafuso parafuso1("Parafuso Type E", 302, 0.5, "IP20", 0.1, 500);
-    Porca porca1("Porca Type F", 303, 0.2, "IP20", 0.05, 300);
+    Eixo eixo1("Eixo Tipo D", 301, 30.0, "IP20", 5.0, 75);
+    Parafuso parafuso1("Parafuso Tipo E", 302, 0.5, "IP20", 0.1, 500);
+    Porca porca1("Porca Tipo F", 303, 0.2, "IP20", 0.05, 300);
 
     // Exibição de informações dos funcionários
     cout << "Informações dos Funcionários:" << endl;
