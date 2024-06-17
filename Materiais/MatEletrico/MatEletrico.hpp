@@ -12,7 +12,7 @@ class MatEletrico : public Material{
         int corrente;
         
     public:
-        MatEletrico(string nome, int id, double preco, int tensao, int corrente); //Construtor
+        MatEletrico(string nome, int id, double preco, string ip_protec,int tensao, int corrente); //Construtor Padrão
         ~MatEletrico(); //Destrutor
 };
 

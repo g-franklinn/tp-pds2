@@ -1,3 +1,6 @@
+#ifndef PARAFUSO
+#define PARAFUSO
+
 #include "../Material/Material.hpp"
 #include "MatMecanico.hpp"
 #include <iostream>
@@ -11,3 +14,5 @@ class Parafuso : public MatMecanico{
         void retirarParafuso(Parafuso parafuso, int q);
         ~Parafuso();
 };
+
+#endif

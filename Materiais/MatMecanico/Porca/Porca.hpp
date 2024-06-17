@@ -1,3 +1,6 @@
+#ifndef PORCA
+#define PORCA
+
 #include "../Material/Material.hpp"
 #include "MatMecanico.hpp"
 #include <iostream>
@@ -13,3 +16,5 @@ class Porca : public MatMecanico{
         ~Porca();
         
 };
+
+#endif
