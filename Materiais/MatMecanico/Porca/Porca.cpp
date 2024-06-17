@@ -13,12 +13,12 @@ Porca::Porca(string nome, int id, double preco, string ip_protec, double peso, i
     MatMecanico(nome, id, preco, ip_protec, peso), quantidade(quantidade)
 {};
 
-void :: adicionarPorca(Porca porca, int q){
+void Porca::adicionarPorca(Porca porca, int q){
     porca.quantidade += q;
 
 };
 
-void Porca:: retirarPorca(Porca porca, int q){
+void Porca::retirarPorca(Porca porca, int q){
     if (porca.quantidade < q){
         cout<<"Não é possível retirar. Em estoque = " << porca.quantidade<< endl;
     }
