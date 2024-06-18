@@ -13,7 +13,7 @@ Funcionarios::Funcionarios(string nomeFuncionario, int idFuncionario, string fun
 }
 
 string Funcionarios::getNome_Funcionario(){
-    return nomeFuncionario;
+    return this->nomeFuncionario;
 }
 
 void Funcionarios::setNome_Funcionario(const string& nome){
@@ -21,7 +21,7 @@ void Funcionarios::setNome_Funcionario(const string& nome){
 }
 
 int Funcionarios::getId_Funcionario(){
-    return idFuncionario;
+    return this->idFuncionario;
 }
 
 void Funcionarios::setId_Funcionario(int id){
@@ -29,7 +29,7 @@ void Funcionarios::setId_Funcionario(int id){
 }
 
 string Funcionarios::getFuncao_Funcionario(){
-    return funcaoFuncionario;
+    return this->funcaoFuncionario;
 }
 
 void Funcionarios::setFuncao_Funcionario(const string& funcao){
