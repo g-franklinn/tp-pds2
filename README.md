@@ -17,3 +17,9 @@ Sobre a compilação:
     cmake ..
     make
     ./my_program
+
+    Observação:
+    É possivel, também, que ocorra algum erro relacionado ao cache no momento de usar o cmake, portanto, caso tal problema ocorra, é possível resolvê-lo com o seguinte comando antes do "cmake ..":
+    rm -rf CMakeCache.txt CMakeFiles Makefile cmake_install.cmake
+
+

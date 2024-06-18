@@ -141,6 +141,7 @@ int main() {
         cout << "Quantidade de parafusos: " << parafuso1->getQuantidade() << endl;
 
 
+<<<<<<< HEAD
         mec1->colocarMaterial(porca1, 1);
         try{
         mec1->retirarMaterial(porca1, 205);
@@ -150,12 +151,18 @@ int main() {
         }
         cout << "Quantidade de porcas: " << porca1->getQuantidade() << endl;
 
+=======
+        // Liberação da memória alocada
+>>>>>>> f976373d2dcc2fe591503963e3e8710f6ae27b00
         delete elec1;
         delete elec2;
         delete elec3;
         delete mec1;
         delete mec2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f976373d2dcc2fe591503963e3e8710f6ae27b00
         delete disj1;
         delete motor1;
         delete rele1;
@@ -163,5 +170,9 @@ int main() {
         delete parafuso1;
         delete porca1;
 
+<<<<<<< HEAD
     return 0; 
+=======
+    return 0;
+>>>>>>> f976373d2dcc2fe591503963e3e8710f6ae27b00
 }
