@@ -134,7 +134,7 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../MatEletrico.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \

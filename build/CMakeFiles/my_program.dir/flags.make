@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios" -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico" -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/Material" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico"
+CXX_INCLUDES = -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios" -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico" -I"/root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/Material" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico" -I"/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico" -I"/root/VS CODE/PDS2/tp-pds2/tp-pds2"
 
 CXX_FLAGS = 
 

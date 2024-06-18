@@ -133,6 +133,7 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/../../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \

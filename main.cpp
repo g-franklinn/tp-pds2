@@ -2,6 +2,7 @@
 #include "Funcionarios/FuncEletrico/FuncEletrico.hpp"
 #include "Funcionarios/FuncMecanico/FuncMecanico.hpp"
 #include "Materiais/Material/Material.hpp"
+#include "Materiais/MatEstoque/MatEstoque.hpp"
 #include "Materiais/MatEletrico/MatEletrico.hpp"
 #include "Materiais/MatEletrico/Disjuntor/Disjuntor.hpp"
 #include "Materiais/MatEletrico/Motor/Motor.hpp"
@@ -87,11 +88,11 @@ int main() {
 
 
         //adicionar e retirar materiais elétricos
-        cout << "Adicionando e retirando materiais elétricos..." << endl;
+     /*     cout << "Adicionando e retirando materiais elétricos..." << endl;
 
         elec1->colocarMaterial(*disj1, 2);
 
-   /*     elec1->colocarMaterial(*motor1, 1);
+       elec1->colocarMaterial(*motor1, 1);
         elec1->retirarMaterial(*motor1, 1);
 
         elec1->colocarMaterial(*rele1, 1);

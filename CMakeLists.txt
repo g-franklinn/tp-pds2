@@ -32,7 +32,7 @@ set(SOURCES
     ${PARAFUSO_SOURCES}
     ${PORCA_SOURCES}
 
-    main.cpp
+    main-teste.cpp
 )
 
 # Include header files
@@ -43,6 +43,7 @@ include_directories(Funcionarios
                     Materiais/MatEstoque
                     Materiais/MatEletrico
                     Materiais/MatMecanico
+                    tp-pds2
                     )
 
 # Create an executable

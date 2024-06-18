@@ -251,19 +251,19 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.cpp" -o CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.s
 
-CMakeFiles/my_program.dir/main.cpp.o: CMakeFiles/my_program.dir/flags.make
-CMakeFiles/my_program.dir/main.cpp.o: ../main.cpp
-CMakeFiles/my_program.dir/main.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/my_program.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/main.cpp.o -MF CMakeFiles/my_program.dir/main.cpp.o.d -o CMakeFiles/my_program.dir/main.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/main.cpp"
+CMakeFiles/my_program.dir/main-teste.cpp.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/main-teste.cpp.o: ../main-teste.cpp
+CMakeFiles/my_program.dir/main-teste.cpp.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/my_program.dir/main-teste.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/main-teste.cpp.o -MF CMakeFiles/my_program.dir/main-teste.cpp.o.d -o CMakeFiles/my_program.dir/main-teste.cpp.o -c "/root/VS CODE/PDS2/tp-pds2/main-teste.cpp"
 
-CMakeFiles/my_program.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/main.cpp" > CMakeFiles/my_program.dir/main.cpp.i
+CMakeFiles/my_program.dir/main-teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_program.dir/main-teste.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/VS CODE/PDS2/tp-pds2/main-teste.cpp" > CMakeFiles/my_program.dir/main-teste.cpp.i
 
-CMakeFiles/my_program.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/main.cpp" -o CMakeFiles/my_program.dir/main.cpp.s
+CMakeFiles/my_program.dir/main-teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/main-teste.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/VS CODE/PDS2/tp-pds2/main-teste.cpp" -o CMakeFiles/my_program.dir/main-teste.cpp.s
 
 # Object files for target my_program
 my_program_OBJECTS = \
@@ -280,7 +280,7 @@ my_program_OBJECTS = \
 "CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o" \
 "CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o" \
 "CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o" \
-"CMakeFiles/my_program.dir/main.cpp.o"
+"CMakeFiles/my_program.dir/main-teste.cpp.o"
 
 # External object files for target my_program
 my_program_EXTERNAL_OBJECTS =
@@ -298,7 +298,7 @@ my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o
 my_program: CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o
-my_program: CMakeFiles/my_program.dir/main.cpp.o
+my_program: CMakeFiles/my_program.dir/main-teste.cpp.o
 my_program: CMakeFiles/my_program.dir/build.make
 my_program: CMakeFiles/my_program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/root/VS CODE/PDS2/tp-pds2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable my_program"
