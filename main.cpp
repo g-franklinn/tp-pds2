@@ -112,5 +112,19 @@ int main() {
         mec1->retirarMaterial(*porca1, 1);
 */
 
+
+        // Liberação da memória alocada
+        delete elec1;
+        delete elec2;
+        delete elec3;
+        delete mec1;
+        delete mec2;
+        delete disj1;
+        delete motor1;
+        delete rele1;
+        delete eixo1;
+        delete parafuso1;
+        delete porca1;
+
     return 0;
 }
