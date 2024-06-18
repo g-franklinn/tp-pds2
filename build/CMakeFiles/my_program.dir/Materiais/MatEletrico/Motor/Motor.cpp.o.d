@@ -130,8 +130,11 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/../../MatEstoque/MatEstoque.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/../../MatEstoque/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/../../MatEstoque/MatEstoque.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \

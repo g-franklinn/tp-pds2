@@ -157,8 +157,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -191,9 +194,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o
  /usr/include/c++/11/bits/istream.tcc
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/FuncEletrico.hpp
 
@@ -353,8 +358,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -387,10 +395,12 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o
  /usr/include/c++/11/bits/istream.tcc
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/FuncMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
 
 CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.o
@@ -729,10 +739,12 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.hpp
- /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
  /usr/include/c++/11/ios
@@ -916,6 +928,8 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -1100,8 +1114,11 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -1286,8 +1303,11 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -1656,8 +1676,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -1842,6 +1865,8 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -2026,8 +2051,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -2212,8 +2240,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/ostream
@@ -2779,32 +2810,40 @@ CMakeFiles/my_program.dir/main-teste.cpp.o
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/FuncMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Funcionarios/Funcionarios.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
+ /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEstoque/MatEstoque.hpp
- /root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Disjuntor/Disjuntor.hpp
  /root/VS CODE/PDS2/tp-pds2/Materiais/MatEletrico/Motor/Motor.hpp

@@ -1,13 +1,14 @@
 #include "../Material/Material.hpp"
+#include "../MatEstoque/MatEstoque.hpp"
 #include "MatEletrico.hpp"
 #include <iostream>
 
 using namespace std;
 
-MatEletrico::MatEletrico(){};
+MatEletrico::MatEletrico() {};
 
-MatEletrico::MatEletrico(string nomeMaterial, int idMaterial, double preco, string ip_protec, int tensao, int corrente)
-: Material(nomeMaterial, idMaterial, preco), ip_protec(ip_protec), tensao(tensao), corrente(corrente) {};
+MatEletrico::MatEletrico(string nomeMaterial, int idMaterial, double preco, string ip_protec, int tensao, int corrente, int quantidade)
+: MatEstoque(nomeMaterial, idMaterial, preco, quantidade), ip_protec(ip_protec), tensao(tensao), corrente(corrente) {};
 
 string MatEletrico::getIp_protec(){
     return ip_protec;
@@ -31,6 +32,10 @@ int MatEletrico::getCorrente(){
 
 void MatEletrico::setCorrente(int new_corrente){
     corrente = new_corrente;
+}
+
+int MatEletrico::getQuantidade(){
+    return quantidade;
 }
 
 MatEletrico::~MatEletrico(){

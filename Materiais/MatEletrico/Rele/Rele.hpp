@@ -2,15 +2,14 @@
 #define RELE
 
 #include "../../Material/Material.hpp"
+#include "../../MatEstoque/MatEstoque.hpp"
 #include "../MatEletrico.hpp"
 #include <iostream>
 
 class Rele : public MatEletrico{
     public:
-        int quantidade;
-
         Rele();
-        Rele(string nome, int id, double preco, string ip_protec, int tensao, int corrente, int quantidade);
+        Rele(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, int tensao, int corrente);
         void adicionarRele(Rele rele, int quantidade);
         void retirarRele(Rele rele, int quantidade);
         ~Rele();

@@ -1,17 +1,15 @@
 #include "../../Material/Material.hpp"
+#include "../../MatEstoque/MatEstoque.hpp"
 #include "../MatMecanico.hpp"
 #include "Porca.hpp"
 #include <iostream>
 
 using namespace std;
 
-Porca::Porca(){
+Porca::Porca(){}
 
-};
-
-Porca::Porca(string nome, int id, double preco, string ip_protec, double peso, int quantidade):
-    MatMecanico(nome, id, preco, ip_protec, peso), quantidade(quantidade)
-{};
+Porca::Porca(string nome, int id, double preco, int quantidade, string ip_protec, double peso) 
+ : MatMecanico() {};
 
 void Porca::adicionarPorca(Porca porca, int q){
     porca.quantidade += q;

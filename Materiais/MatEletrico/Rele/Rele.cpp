@@ -1,15 +1,16 @@
 #include "../../Material/Material.hpp"
+#include "../../MatEstoque/MatEstoque.hpp"
 #include "../MatEletrico.hpp"
 #include "Rele.hpp"
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-Rele::Rele(){
-};
+Rele::Rele(){};
 
-Rele::Rele(string nome, int id, double preco, string ip_protec, int tensao, int corrente, int quantidade):
-    MatEletrico(nome, id, preco, ip_protec, tensao, corrente), quantidade(quantidade){
-};
+Rele::Rele(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, int tensao, int corrente)
+: MatEletrico() {};
 
 void Rele::adicionarRele(Rele rele, int quant){
     rele.quantidade += quant;

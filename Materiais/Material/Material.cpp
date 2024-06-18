@@ -5,8 +5,8 @@ using namespace std;
 
 Material::Material(){};
 
-Material::Material(string nomeMaterial, int idMaterial, double preco)
-    : nomeMaterial(nomeMaterial), idMaterial(idMaterial), preco(preco) {}
+Material::Material(string nomeMaterial, int idMaterial, double preco, int quantidade)
+    : nomeMaterial(nomeMaterial), idMaterial(idMaterial), preco(preco), quantidade(quantidade) {}
 
 string Material::getNome_Material(){
     return nomeMaterial;
@@ -30,6 +30,10 @@ double Material::getPreco(){
 
 void Material::setPreco(double new_preco){
     preco = new_preco;
+}
+
+int Material::getQuantidade(){
+    return quantidade;
 }
 
 Material::~Material() {

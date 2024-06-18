@@ -130,6 +130,8 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/../MatEstoque/MatEstoque.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/../MatEstoque/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \

@@ -4,16 +4,10 @@
 
 using namespace std;
 
-MatEstoque::MatEstoque(int quantidade, int id, string nome) 
-: Material(nome, id, 0.0), quantidade(quantidade), idLocal(id), nomeLocal(nome) {}
+MatEstoque::MatEstoque(){}
 
-int MatEstoque::getQuantidade(){
-    return quantidade;
-}
-
-string MatEstoque::getLocal() {
-    return nomeLocal;
-}
+MatEstoque::MatEstoque(string nomeMaterial,  int idMaterial, double preco, int quantidade) 
+: Material(nomeMaterial, idMaterial, preco, quantidade) {}
 
 void MatEstoque::baixaEstoque(int quantidade) {
     if (this->quantidade >= quantidade) {
@@ -21,14 +15,12 @@ void MatEstoque::baixaEstoque(int quantidade) {
     }
 }
 
-
 void MatEstoque::adicionar(int quantidade) {
     this->quantidade += quantidade;
 }
 
-void MatEstoque::setLocal(int id, string nome) {
-    idLocal = id;
-    nomeLocal = nome;
+int MatEstoque::getQuantidade(){
+    return quantidade;
 }
 
 MatEstoque::~MatEstoque() {};

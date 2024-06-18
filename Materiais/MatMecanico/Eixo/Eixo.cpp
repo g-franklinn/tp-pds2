@@ -1,4 +1,5 @@
 #include "../../Material/Material.hpp"
+#include "../../MatEstoque/MatEstoque.hpp"
 #include "../MatMecanico.hpp"
 #include "Eixo.hpp"
 #include <iostream>
@@ -8,9 +9,8 @@ using namespace std;
 Eixo::Eixo(){
 };
 
-Eixo::Eixo(string nome, int id, double preco, string ip_protec, double peso, int quantidade):
-    MatMecanico(nome, id, preco, ip_protec, peso), quantidade(quantidade){
-};
+Eixo::Eixo(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, double peso)
+ : MatMecanico() {};
 
 void Eixo:: adicionarEixo(Eixo eixo, int q){
     eixo.quantidade += q;

@@ -27,14 +27,14 @@ int main() {
         FuncMecanico* mec2 = new FuncMecanico("Marcus", 105, "Mecânica");
 
         // Criação de materiais elétricos
-        Disjuntor* disj1 = new Disjuntor("Disjuntor Tipo A", 201, 50.0, "IP20", 220, 10, 100);
-        Motor* motor1 = new Motor("Motor Tipo B", 202, 150.0, "IP44", 220, 15, 50);
-        Rele* rele1 = new Rele("Rele Tipo C", 203, 20.0, "IP20", 220, 5, 200);
+        Disjuntor* disj1 = new Disjuntor("Disjuntor Tipo A", 201, 50.0, 100, "IP20", 220, 10);
+        Motor* motor1 = new Motor("Motor Tipo B", 202, 150.0, 50, "IP44", 220, 15);
+        Rele* rele1 = new Rele("Rele Tipo C", 203, 20.0, 200, "IP20", 220, 5);
 
         // Criação de materiais mecânicos
-        Eixo* eixo1 = new Eixo("Eixo Tipo D", 301, 30.0, "IP20", 5.0, 75);
-        Parafuso* parafuso1 = new Parafuso("Parafuso Tipo E", 302, 0.5, "IP20", 0.1, 500);
-        Porca* porca1 = new Porca("Porca Tipo F", 303, 0.2, "IP20", 0.05, 300);
+        Eixo* eixo1 = new Eixo("Eixo Tipo D", 301, 30.0, 75, "IP20", 5.0);
+        Parafuso* parafuso1 = new Parafuso("Parafuso Tipo E", 302, 0.5, 500, "IP20", 0.1);
+        Porca* porca1 = new Porca("Porca Tipo F", 303, 0.2, 300, "IP20", 0.05);
 
 
         //Exibição de informações dos funcionários

@@ -1,4 +1,5 @@
 #include "../../Material/Material.hpp"
+#include "../../MatEstoque/MatEstoque.hpp"
 #include "../MatEletrico.hpp"
 #include "Motor.hpp"
 #include <iostream>
@@ -7,9 +8,8 @@ using namespace std;
 Motor::Motor(){
 };
 
-Motor::Motor(string nome, int id, double preco, string ip_protec, int tensao, int corrente, int quantidade):
-    MatEletrico(nome, id, preco, ip_protec, tensao, corrente), quantidade(quantidade){
-};
+Motor::Motor(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, int tensao, int corrente)
+ : MatEletrico() {};
 
 void Motor::adicionarMotor(Motor motor, int quant){
     motor.quantidade += quant;

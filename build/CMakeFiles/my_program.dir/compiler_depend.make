@@ -156,8 +156,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: ../Funci
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -190,9 +193,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: ../Funci
   /usr/include/c++/11/bits/istream.tcc \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Funcionarios/FuncEletrico/FuncEletrico.hpp
 
@@ -351,8 +356,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: ../Funci
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -385,10 +393,12 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: ../Funci
   /usr/include/c++/11/bits/istream.tcc \
   ../Materiais/MatMecanico/Porca/Porca.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Funcionarios/FuncMecanico/FuncMecanico.hpp \
   ../Materiais/MatMecanico/Eixo/Eixo.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp
 
 CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.o: ../Funcionarios/Funcionarios.cpp \
@@ -725,10 +735,12 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Disjuntor/Disjuntor.cpp.o: ../Ma
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
-  ../Materiais/Material/Material.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -911,6 +923,8 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/MatEletrico.cpp.o: ../Materiais/
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -1094,8 +1108,11 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Motor/Motor.cpp.o: ../Materiais/
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -1279,8 +1296,11 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: ../Materiais/Ma
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -1647,8 +1667,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: ../Materiais/Ma
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/Eixo/Eixo.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -1832,6 +1855,8 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/MatMecanico.cpp.o: ../Materiais/
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -2015,8 +2040,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o: ../Mate
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -2200,8 +2228,11 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o: ../Materiais/
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/Porca/Porca.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -2765,32 +2796,40 @@ CMakeFiles/my_program.dir/main-teste.cpp.o: ../main-teste.cpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Funcionarios/FuncMecanico/FuncMecanico.hpp \
   ../Funcionarios/Funcionarios.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/Eixo/Eixo.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/MatMecanico/Porca/Porca.hpp \
   ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEstoque/MatEstoque.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEstoque/MatEstoque.hpp \
-  ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
@@ -3355,6 +3394,12 @@ CMakeFiles/my_program.dir/main-teste.cpp.o: ../main-teste.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+../Materiais/MatEstoque/MatEstoque.hpp:
+
 /usr/include/c++/11/ostream:
 
 ../Materiais/MatEletrico/MatEletrico.hpp:
@@ -3460,12 +3505,6 @@ CMakeFiles/my_program.dir/main-teste.cpp.o: ../main-teste.cpp \
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 ../Materiais/MatEletrico/Rele/Rele.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-../Materiais/MatEstoque/MatEstoque.hpp:
 
 ../Materiais/MatMecanico/MatMecanico.cpp:
 
