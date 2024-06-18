@@ -13,11 +13,14 @@ using std::string;
 
 
 class FuncMecanico : public Funcionarios{
-
     public:
-
         FuncMecanico();
         FuncMecanico(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
+
+        string getNome_Funcionario() override;
+        int getId_Funcionario() override;
+        string getFuncao_Funcionario() override;
+
         void colocarMaterial(Eixo eixo, int q);
         void colocarMaterial(Porca porca, int q);
         void colocarMaterial(Parafuso parafuso, int q);
@@ -25,7 +28,6 @@ class FuncMecanico : public Funcionarios{
         void retirarMaterial(Porca porca, int q);
         void retirarMaterial(Parafuso parafuso, int q);
         ~FuncMecanico();
-
 };
 
 #endif

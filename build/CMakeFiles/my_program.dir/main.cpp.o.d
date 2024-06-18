@@ -153,18 +153,27 @@ CMakeFiles/my_program.dir/main.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../MatEletrico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/Motor.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../MatEletrico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/Rele.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/Motor.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/Rele.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/FuncMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../Funcionarios.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/Eixo.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/../MatMecanico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/../../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/../MatMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/Porca.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/../MatMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/MatMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \

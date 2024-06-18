@@ -1,11 +1,11 @@
 #include "../Material/Material.hpp"
 #include "MatEstoque.hpp"
-#include "iostream"
+#include <iostream>
 
 using namespace std;
 
-MatEstoque::MatEstoque(int quantidade, int id, string nome) : Material(nome, id, 0.0), quantidade(quantidade), idLocal(id), nomeLocal(nome) {}
-
+MatEstoque::MatEstoque(int quantidade, int id, string nome) 
+: Material(nome, id, 0.0), quantidade(quantidade), idLocal(id), nomeLocal(nome) {}
 
 int MatEstoque::getQuantidade(){
     return quantidade;

@@ -1,5 +1,5 @@
-#include "../Material/Material.hpp"
-#include "MatEletrico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatEletrico.hpp"
 #include "Disjuntor.hpp"
 #include <iostream>
 using namespace std;

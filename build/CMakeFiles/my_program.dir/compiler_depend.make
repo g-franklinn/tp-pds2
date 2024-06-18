@@ -189,7 +189,11 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: ../Funci
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Funcionarios/FuncEletrico/FuncEletrico.hpp
 
 CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: ../Funcionarios/FuncMecanico/FuncMecanico.cpp \
@@ -380,8 +384,12 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: ../Funci
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../Materiais/MatMecanico/Porca/Porca.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Funcionarios/FuncMecanico/FuncMecanico.hpp \
-  ../Materiais/MatMecanico/Eixo/Eixo.hpp
+  ../Materiais/MatMecanico/Eixo/Eixo.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatMecanico/MatMecanico.hpp
 
 CMakeFiles/my_program.dir/Funcionarios/Funcionarios.cpp.o: ../Funcionarios/Funcionarios.cpp \
   /usr/include/stdc-predef.h \
@@ -1273,6 +1281,8 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: ../Materiais/Ma
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEletrico/MatEletrico.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -2596,15 +2606,24 @@ CMakeFiles/my_program.dir/main.cpp.o: ../main.cpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Motor/Motor.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Materiais/MatEletrico/Rele/Rele.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatEletrico/MatEletrico.hpp \
   ../Funcionarios/FuncMecanico/FuncMecanico.hpp \
   ../Funcionarios/Funcionarios.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/Eixo/Eixo.hpp \
+  ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/MatMecanico/Porca/Porca.hpp \
+  ../Materiais/Material/Material.hpp \
+  ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/MatMecanico/MatMecanico.hpp \
   ../Materiais/Material/Material.hpp \
   ../Materiais/MatEletrico/MatEletrico.hpp \

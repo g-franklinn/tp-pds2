@@ -1,8 +1,8 @@
 #ifndef PARAFUSO
 #define PARAFUSO
 
-#include "../Material/Material.hpp"
-#include "MatMecanico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatMecanico.hpp"
 #include <iostream>
 
 class Parafuso : public MatMecanico{

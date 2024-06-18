@@ -134,8 +134,8 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Disjuntor/../MatEletrico.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -159,5 +159,9 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/Motor.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/Rele.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/FuncEletrico.hpp

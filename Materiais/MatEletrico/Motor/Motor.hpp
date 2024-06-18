@@ -1,8 +1,8 @@
 #ifndef MOTOR
 #define MOTOR
 
-#include "../Material/Material.hpp"
-#include "MatEletrico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatEletrico.hpp"
 #include <iostream>
 
 class Motor : public MatEletrico{

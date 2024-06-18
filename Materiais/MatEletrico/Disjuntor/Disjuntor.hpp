@@ -1,8 +1,8 @@
 #ifndef DISJUNTOR
 #define DISJUNTOR
 
-#include "../Material/Material.hpp"
-#include "MatEletrico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatEletrico.hpp"
 #include <iostream>
 
 class Disjuntor : public MatEletrico{

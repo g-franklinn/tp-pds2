@@ -1,7 +1,7 @@
 CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.cpp \
  /usr/include/stdc-predef.h \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/../../Material/Material.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -130,8 +130,8 @@ CMakeFiles/my_program.dir/Materiais/MatMecanico/Eixo/Eixo.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/../MatMecanico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/../../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/Eixo/Eixo.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \

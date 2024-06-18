@@ -19,6 +19,11 @@ class FuncEletrico : public Funcionarios{
 
         FuncEletrico();
         FuncEletrico(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
+        
+        string getNome_Funcionario() override;
+        int getId_Funcionario() override;
+        string getFuncao_Funcionario() override;
+
 
         void colocarMaterial(Disjuntor disjuntor, int quant);
         void colocarMaterial(Motor motor, int quant);

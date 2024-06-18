@@ -16,17 +16,14 @@ class Funcionarios {
     Funcionarios();
     Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario);
 
-    string getNome_Funcionario();
-    void setNome_Funcionario(const string& nomeFuncionario);
-    int getId_Funcionario();
+    virtual string getNome_Funcionario();
+    void setNome_Funcionario(string nomeFuncionario);
+    virtual int getId_Funcionario();
     void setId_Funcionario(int idFuncionario);
-    string getFuncao_Funcionario();
-    void setFuncao_Funcionario(const string& funcaoFuncionario);
-
-    
+    virtual string getFuncao_Funcionario();
+    void setFuncao_Funcionario(string funcaoFuncionario);
 
     virtual ~Funcionarios(); //Destrutor 
-
 };
 
 

@@ -6,14 +6,15 @@ using namespace std;
 
 
 Material::Material(){};
+
 Material::Material(string nome, int id, double preco)
-    : nomeMaterial(nome), idMaterial(id), preco (preco) {}
+    : nomeMaterial(nomeMaterial), idMaterial(idMaterial), preco(preco) {}
 
 string Material::getNome_Material(){
     return nomeMaterial;
 }
 
-void Material::setNome_Material(const string& nome){
+void Material::setNome_Material(string nome){
     nomeMaterial = nome;
 }
 

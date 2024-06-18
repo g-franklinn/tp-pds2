@@ -16,7 +16,7 @@ class Material{
     Material(string nome, int id, double preco);    //Construtor padrão
 
     string getNome_Material(); 
-    void setNome_Material(const string& nome);
+    void setNome_Material(string nome);
     int getId();
     void setId(int id);
     double getPreco();

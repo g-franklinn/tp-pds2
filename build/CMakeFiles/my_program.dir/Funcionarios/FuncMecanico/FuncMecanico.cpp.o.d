@@ -134,8 +134,8 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/MatMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/Parafuso.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatMecanico/MatMecanico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Parafuso/../MatMecanico.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -159,5 +159,9 @@ CMakeFiles/my_program.dir/Funcionarios/FuncMecanico/FuncMecanico.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/Porca.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Porca/../MatMecanico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/FuncMecanico.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/Eixo.hpp
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/Eixo.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncMecanico/../../Materiais/MatMecanico/Eixo/../MatMecanico.hpp

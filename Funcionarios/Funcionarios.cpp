@@ -6,22 +6,19 @@ using namespace std;
 
 Funcionarios::Funcionarios(){};
 
-Funcionarios::Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario){
-    this -> nomeFuncionario = nomeFuncionario;
-    this -> idFuncionario = idFuncionario;
-    this -> funcaoFuncionario =  funcaoFuncionario;
-}
+Funcionarios::Funcionarios(string nomeFuncionario, int idFuncionario, string funcaoFuncionario) 
+:nomeFuncionario(nomeFuncionario), idFuncionario(idFuncionario), funcaoFuncionario(funcaoFuncionario){};
 
 string Funcionarios::getNome_Funcionario(){
-    return this->nomeFuncionario;
+    return nomeFuncionario;
 }
 
-void Funcionarios::setNome_Funcionario(const string& nome){
+void Funcionarios::setNome_Funcionario(string nome){
     nomeFuncionario = nome;
 }
 
 int Funcionarios::getId_Funcionario(){
-    return this->idFuncionario;
+    return idFuncionario;
 }
 
 void Funcionarios::setId_Funcionario(int id){
@@ -29,10 +26,10 @@ void Funcionarios::setId_Funcionario(int id){
 }
 
 string Funcionarios::getFuncao_Funcionario(){
-    return this->funcaoFuncionario;
+    return funcaoFuncionario;
 }
 
-void Funcionarios::setFuncao_Funcionario(const string& funcao){
+void Funcionarios::setFuncao_Funcionario(string funcao){
     funcaoFuncionario = funcao;
 }
 

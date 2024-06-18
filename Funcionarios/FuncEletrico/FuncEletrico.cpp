@@ -16,6 +16,19 @@ FuncEletrico::FuncEletrico(){};
 FuncEletrico::FuncEletrico(string nome, int id, string funcao) 
     : Funcionarios(nomeFuncionario, idFuncionario, funcaoFuncionario){}
 
+string FuncEletrico::getNome_Funcionario(){
+    return nomeFuncionario;
+}
+
+int FuncEletrico::getId_Funcionario(){
+    return idFuncionario;
+}
+
+
+string FuncEletrico::getFuncao_Funcionario(){
+    return funcaoFuncionario;
+}
+
 void FuncEletrico::colocarMaterial(Disjuntor disjuntor, int quant){
     disjuntor.adicionarDisjuntor(disjuntor, quant);
         

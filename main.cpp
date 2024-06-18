@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Funcionarios/Funcionarios.hpp"
 #include "Funcionarios/FuncEletrico/FuncEletrico.hpp"
 #include "Funcionarios/FuncMecanico/FuncMecanico.hpp"
@@ -29,15 +30,17 @@ int main() {
         Parafuso* parafuso1 = new Parafuso("Parafuso Tipo E", 302, 0.5, "IP20", 0.1, 500);
         Porca* porca1 = new Porca("Porca Tipo F", 303, 0.2, "IP20", 0.05, 300);
 
+
+    cout << "Nome:" << eixo1->getNome_Material() << endl;
         // Exibição de informações dos funcionários
-        cout << "Informações dos Funcionários:" << endl;
+      /*  cout << "Informações dos Funcionários:" << endl;
 
         cout << "Funcionário Elétrico:" << endl;
         cout << "Nome: " << elec1->getNome_Funcionario() << endl;
         cout << "ID: " << elec1->getId_Funcionario() << endl;
         cout << "Função: " << elec1->getFuncao_Funcionario() << endl;
         cout << endl;
-
+*/
 
        /*   adicionar e retirar materiais elétricos
         cout << "Adicionando e retirando materiais elétricos..." << endl;

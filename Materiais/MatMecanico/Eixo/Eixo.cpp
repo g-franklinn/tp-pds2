@@ -1,5 +1,5 @@
-#include "../Material/Material.hpp"
-#include "MatMecanico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatMecanico.hpp"
 #include "Eixo.hpp"
 #include <iostream>
 using namespace std;

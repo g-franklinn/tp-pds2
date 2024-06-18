@@ -1,8 +1,8 @@
 #ifndef EIXO
 #define EIXO
 
-#include "../Material/Material.hpp"
-#include "MatMecanico.hpp"
+#include "../../Material/Material.hpp"
+#include "../MatMecanico.hpp"
 #include <iostream>
 
 class Eixo : public MatMecanico{
