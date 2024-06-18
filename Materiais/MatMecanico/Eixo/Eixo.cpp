@@ -19,16 +19,17 @@ Eixo::Eixo(string nomeMaterial, int idMaterial, double preco, int quantidade, st
     this->peso = peso;
  };
 
-void Eixo:: adicionarEixo(Eixo eixo, int q){
-    eixo.quantidade += q;
+void Eixo::adicionarEixo(Eixo* eixo, int q){
+    eixo->quantidade += q;
 };
 
-void Eixo:: retirarEixo(Eixo eixo, int q){
-    if (eixo.quantidade < q){
-        cout<<"Não é possível retirar. Em estoque = " << eixo.quantidade<< endl;
+void Eixo::retirarEixo(Eixo* eixo, int q){
+    if (eixo->quantidade < q) {
+        throw "Nao e possível retirar eixos. Em estoque = "; 
+        cout << eixo->quantidade;
     }
-    else{
-    eixo.quantidade -= q;}
+    else 
+        eixo->quantidade -= q;
 };
 
 Eixo::~Eixo(){

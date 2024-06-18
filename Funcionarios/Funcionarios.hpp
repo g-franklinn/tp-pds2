@@ -26,5 +26,4 @@ class Funcionarios {
     virtual ~Funcionarios(); //Destrutor 
 };
 
-
 #endif

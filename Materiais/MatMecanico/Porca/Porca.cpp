@@ -18,19 +18,20 @@ Porca::Porca(string nomeMaterial, int idMaterial, double preco, int quantidade, 
     this->peso = peso;
  };
 
-void Porca::adicionarPorca(Porca porca, int q){
-    porca.quantidade += q;
+void Porca::adicionarPorca(Porca* porca, int q){
+    porca->quantidade += q;
 
 };
 
-void Porca::retirarPorca(Porca porca, int q){
-    if (porca.quantidade < q){
-        cout<<"Não é possível retirar. Em estoque = " << porca.quantidade<< endl;
+void Porca::retirarPorca(Porca* porca, int q){
+    if (porca->quantidade < q) {
+        throw "Nao e possível retirar porcas. Em estoque = "; 
+        cout << porca->quantidade;
     }
-    else{
-    porca.quantidade -= q;}
+    else 
+        porca->quantidade -= q;
 };
 
 Porca::~Porca(){
-    cout<< "Deletando porca"<<endl;
+    cout << "Deletando porca" <<endl;
 };

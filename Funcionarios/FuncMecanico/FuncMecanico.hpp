@@ -21,12 +21,13 @@ class FuncMecanico : public Funcionarios{
         int getId_Funcionario() override;
         string getFuncao_Funcionario() override;
 
-        void colocarMaterial(Eixo eixo, int q);
-        void colocarMaterial(Porca porca, int q);
-        void colocarMaterial(Parafuso parafuso, int q);
-        void retirarMaterial(Eixo eixo, int q);
-        void retirarMaterial(Porca porca, int q);
-        void retirarMaterial(Parafuso parafuso, int q);
+        void colocarMaterial(Eixo* eixo, int q);
+        void colocarMaterial(Porca* porca, int q);
+        void colocarMaterial(Parafuso* parafuso, int q);
+        
+        void retirarMaterial(Eixo* eixo, int q);
+        void retirarMaterial(Porca* porca, int q);
+        void retirarMaterial(Parafuso* parafuso, int q);
         ~FuncMecanico();
 };
 

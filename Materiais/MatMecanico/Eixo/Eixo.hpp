@@ -11,8 +11,8 @@ class Eixo : public MatMecanico{
     public:
         Eixo();
         Eixo(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, double peso);
-        void adicionarEixo(Eixo eixo, int q);
-        void retirarEixo(Eixo eixo, int q);
+        void adicionarEixo(Eixo* eixo, int q);
+        void retirarEixo(Eixo* eixo, int q);
         ~Eixo();
 
 };

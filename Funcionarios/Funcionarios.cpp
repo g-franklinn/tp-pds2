@@ -33,6 +33,4 @@ void Funcionarios::setFuncao_Funcionario(string funcaoFuncionario){
     funcaoFuncionario = funcaoFuncionario;
 }
 
-Funcionarios::~Funcionarios() {
-    cout<< "deletando funcionario"<<endl;
-};
+Funcionarios::~Funcionarios() {};

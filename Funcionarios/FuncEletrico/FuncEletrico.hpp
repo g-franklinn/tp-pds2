@@ -23,13 +23,13 @@ class FuncEletrico : public Funcionarios{
         int getId_Funcionario() override;
         string getFuncao_Funcionario() override;
 
-        void colocarMaterial(Disjuntor disjuntor, int quant);
-        void colocarMaterial(Motor motor, int quant);
-        void colocarMaterial(Rele rele, int quant);
+        void colocarMaterial(Disjuntor* disjuntor, int quant);
+        void colocarMaterial(Motor* motor, int quant);
+        void colocarMaterial(Rele* rele, int quant);
 
-        void retirarMaterial(Disjuntor disjuntor, int quant);
-        void retirarMaterial(Motor motor, int quant);
-        void retirarMaterial(Rele rele, int quant);
+        void retirarMaterial(Disjuntor* disjuntor, int quant);
+        void retirarMaterial(Motor* motor, int quant);
+        void retirarMaterial(Rele* rele, int quant);
         ~FuncEletrico();
 
 };

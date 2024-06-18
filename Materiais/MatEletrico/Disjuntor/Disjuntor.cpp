@@ -19,16 +19,18 @@ Disjuntor::Disjuntor(string nomeMaterial, int idMaterial, double preco, int quan
     this->corrente = corrente;
 };
 
-void Disjuntor::adicionarDisjuntor(Disjuntor disjuntor, int quant){
-    disjuntor.quantidade += quant;
+void Disjuntor::adicionarDisjuntor(Disjuntor* disjuntor, int quant){
+    disjuntor->quantidade += quant;
 };
 
-void Disjuntor::retirarDisjuntor(Disjuntor disjuntor, int quant){
-    if (disjuntor.quantidade < quant){
-        cout<<"Não é possível retirar. Em estoque = " << disjuntor.quantidade<< endl;
+void Disjuntor::retirarDisjuntor(Disjuntor* disjuntor, int quant){
+    if (disjuntor->quantidade < quant) {
+        throw "Nao e possível retirar disjuntores. Em estoque = "; 
+        cout << disjuntor->quantidade;
+        //cout<<"Não é possível retirar. Em estoque = " << disjuntor->quantidade<< endl;
     }
-    else
-        disjuntor.quantidade -= quant;
+    else 
+        disjuntor->quantidade -= quant;
 };
 
 Disjuntor::~Disjuntor(){

@@ -26,13 +26,13 @@ int main() {
         FuncMecanico* mec1 = new FuncMecanico("Barbara", 104, "Mecânica");
         FuncMecanico* mec2 = new FuncMecanico("Marcus", 105, "Mecânica");
 
-        // Criação de materiais elétricos
+        //Criação de materiais elétricos
         Disjuntor* disj1 = new Disjuntor("Disjuntor Tipo A", 201, 50.0, 100, "IP20", 220, 10);
         Motor* motor1 = new Motor("Motor Tipo B", 202, 150.0, 50, "IP44", 220, 15);
-        Rele* rele1 = new Rele("Rele Tipo C", 203, 20.0, 200, "IP20", 220, 5);
+        Rele* rele1 = new Rele("Rele Tipo C", 203, 20.0, 500, "IP20", 220, 5);
 
         // Criação de materiais mecânicos
-        Eixo* eixo1 = new Eixo("Eixo Tipo D", 301, 30.0, 75, "IP20", 5.0);
+        Eixo* eixo1 = new Eixo("Eixo Tipo D", 301, 30.0, 40, "IP20", 5.0);
         Parafuso* parafuso1 = new Parafuso("Parafuso Tipo E", 302, 0.5, 500, "IP20", 0.1);
         Porca* porca1 = new Porca("Porca Tipo F", 303, 0.2, 300, "IP20", 0.05);
 
@@ -55,8 +55,8 @@ int main() {
 
         //Exibição de informações dos materiais elétricos
         vector<MatEletrico*> mateletricos;
-        mateletricos.push_back(disj1);
-        mateletricos.push_back(motor1);
+       // mateletricos.push_back(disj1);
+       // mateletricos.push_back(motor1);
         mateletricos.push_back(rele1);
 
         cout << "Lista de materiais eletricos:" << endl;
@@ -86,31 +86,82 @@ int main() {
         cout << endl;
         }
 
+        //Adicionar e retirar materiais elétricos
+        cout << "Adicionando e retirando materiais elétricos..." << endl;
 
-        //adicionar e retirar materiais elétricos
-         cout << "Adicionando e retirando materiais elétricos..." << endl;
+        elec1->colocarMaterial(disj1, 2);
+        try{
+        elec1->retirarMaterial(disj1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de disjuntores: " << disj1->getQuantidade() << endl;
+     
 
-        elec1->colocarMaterial(*disj1, 2);
-        cout << disj1->getQuantidade() << endl;
+        elec1->colocarMaterial(motor1, 3);
+        try{
+        elec1->retirarMaterial(motor1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de motores: " << motor1->getQuantidade() << endl;
 
-      /* elec1->colocarMaterial(*motor1, 1);
-        elec1->retirarMaterial(*motor1, 1);
 
-        elec1->colocarMaterial(*rele1, 1);
-        elec1->retirarMaterial(*rele1, 1);
+        elec1->colocarMaterial(rele1, 1);
+        try{
+        elec1->retirarMaterial(rele1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de reles: " << rele1->getQuantidade() << endl;
 
-        // adicionar e retirar materiais mecânicos
+        //Adicionar e retirar materiais mecânicos
         cout << "Adicionando e retirando materiais mecânicos..." << endl;
 
-        mec1->colocarMaterial(*eixo1, 1);
-        mec1->retirarMaterial(*eixo1, 1);
+        mec1->colocarMaterial(eixo1, 1);
+        try{
+        mec1->retirarMaterial(eixo1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de eixos: " << eixo1->getQuantidade() << endl;
 
-        mec1->colocarMaterial(*parafuso1, 1);
-        mec1->retirarMaterial(*parafuso1, 1);
 
-        mec1->colocarMaterial(*porca1, 1);
-        mec1->retirarMaterial(*porca1, 1);
-*/
+        mec1->colocarMaterial(parafuso1, 1);
+        try{
+        mec1->retirarMaterial(parafuso1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de parafusos: " << parafuso1->getQuantidade() << endl;
 
-    return 0;
+
+        mec1->colocarMaterial(porca1, 1);
+        try{
+        mec1->retirarMaterial(porca1, 205);
+        }
+        catch (const char* mensagem){
+            cerr << "Exceção capturada" << endl << mensagem;
+        }
+        cout << "Quantidade de porcas: " << porca1->getQuantidade() << endl;
+
+        delete elec1;
+        delete elec2;
+        delete elec3;
+        delete mec1;
+        delete mec2;
+
+        delete disj1;
+        delete motor1;
+        delete rele1;
+        delete eixo1;
+        delete parafuso1;
+        delete porca1;
+
+    return 0; 
 }

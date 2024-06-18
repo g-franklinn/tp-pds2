@@ -20,16 +20,18 @@ Rele::Rele(string nomeMaterial, int idMaterial, double preco, int quantidade, st
     this->corrente = corrente;
 };
 
-void Rele::adicionarRele(Rele rele, int quant){
-    rele.quantidade += quant;
+void Rele::adicionarRele(Rele* rele, int quant){
+    rele->quantidade += quant;
 };
 
-void Rele::retirarRele(Rele rele, int quant){
-    if (rele.quantidade < quant){
-        cout<<"Não é possível retirar. Em estoque = " << rele.quantidade<< endl;
+void Rele::retirarRele(Rele* rele, int quant){
+    if (rele->quantidade < quant) {
+        throw "Nao e possível retirar reles. Em estoque = "; 
+        cout << rele->quantidade;
+        //cout<<"Não é possível retirar. Em estoque = " << rele->quantidade<< endl;
     }
-    else
-        rele.quantidade -= quant;
+    else 
+        rele->quantidade -= quant;
 };
 
 Rele::~Rele(){

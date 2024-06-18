@@ -20,20 +20,18 @@ Parafuso::Parafuso(string nomeMaterial, int idMaterial, double preco, int quanti
  };
 
 
-void Parafuso:: adicionarParafuso(Parafuso parafuso, int q){
-    parafuso.quantidade += q;
+void Parafuso:: adicionarParafuso(Parafuso* parafuso, int q){
+    parafuso->quantidade += q;
 
 };
 
-void Parafuso:: retirarParafuso(Parafuso parafuso, int q){
-    if (parafuso.quantidade < q){
-        cout<<"Não é possível retirar. Em estoque = " << parafuso.quantidade<< endl;
+void Parafuso:: retirarParafuso(Parafuso* parafuso, int q){
+    if (parafuso->quantidade < q) {
+        throw "Nao e possível retirar parafusos. Em estoque = "; 
+        cout << parafuso->quantidade;
     }
-    else{
-    parafuso.quantidade -= q;}
-
-
-
+    else 
+        parafuso->quantidade -= q;
 };
 
 Parafuso::~Parafuso(){
