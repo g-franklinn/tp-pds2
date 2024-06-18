@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "Funcionarios/Funcionarios.hpp"
 #include "Funcionarios/FuncEletrico/FuncEletrico.hpp"
 #include "Funcionarios/FuncMecanico/FuncMecanico.hpp"
@@ -13,12 +11,19 @@
 #include "Materiais/MatMecanico/Parafuso/Parafuso.hpp"
 #include "Materiais/MatMecanico/Porca/Porca.hpp"
 
+#include <iostream>
+#include <string>
+#include <vector>
+
 using namespace std;
 
 int main() {
         // Criação de funcionários
         FuncEletrico* elec1 = new FuncEletrico("Guido", 101, "Eletricista");
-        FuncMecanico* mec1 = new FuncMecanico("Barbara", 102, "Mecânica");
+        FuncEletrico* elec2 = new FuncEletrico("Franklin", 102, "Eletricista");
+        FuncEletrico* elec3 = new FuncEletrico("Gustavo", 103, "Eletricista");
+        FuncMecanico* mec1 = new FuncMecanico("Barbara", 104, "Mecânica");
+        FuncMecanico* mec2 = new FuncMecanico("Marcus", 105, "Mecânica");
 
         // Criação de materiais elétricos
         Disjuntor* disj1 = new Disjuntor("Disjuntor Tipo A", 201, 50.0, "IP20", 220, 10, 100);
@@ -31,24 +36,62 @@ int main() {
         Porca* porca1 = new Porca("Porca Tipo F", 303, 0.2, "IP20", 0.05, 300);
 
 
-    cout << "Nome:" << eixo1->getNome_Material() << endl;
-        // Exibição de informações dos funcionários
-      /*  cout << "Informações dos Funcionários:" << endl;
+        //Exibição de informações dos funcionários
+        vector<Funcionarios*> funcionarios;
+        funcionarios.push_back(elec1);
+        funcionarios.push_back(elec2);
+        funcionarios.push_back(elec3);
+        funcionarios.push_back(mec1);
+        funcionarios.push_back(mec2);
 
-        cout << "Funcionário Elétrico:" << endl;
-        cout << "Nome: " << elec1->getNome_Funcionario() << endl;
-        cout << "ID: " << elec1->getId_Funcionario() << endl;
-        cout << "Função: " << elec1->getFuncao_Funcionario() << endl;
+        cout << "Lista de funcionarios:" << endl;
+        for(auto funcionario : funcionarios){
+        cout << "Nome: " << funcionario->getNome_Funcionario() << endl;
+        cout << "ID: " << funcionario->getId_Funcionario() << endl;
+        cout << "Função: " << funcionario->getFuncao_Funcionario() << endl;
         cout << endl;
-*/
+        }
 
-       /*   adicionar e retirar materiais elétricos
+        //Exibição de informações dos materiais elétricos
+        vector<MatEletrico*> mateletricos;
+        mateletricos.push_back(disj1);
+        mateletricos.push_back(motor1);
+        mateletricos.push_back(rele1);
+
+        cout << "Lista de materiais eletricos:" << endl;
+        for(auto mateletrico : mateletricos){
+        cout << "Nome: " << mateletrico->getNome_Material() << endl;
+        cout << "ID: " << mateletrico->getId_Material() << endl;
+        cout << "Preco: " << mateletrico->getPreco() << endl;
+        cout << "Ip_protec: " << mateletrico->getIp_protec() << endl;
+        cout << "Tensao: " << mateletrico->getTensao() << endl;
+        cout << "Corrente: " << mateletrico->getCorrente() << endl;
+        cout << endl;
+        }
+
+        //Exibição de informações dos materiais mecênicos
+        vector<MatMecanico*> matmecanicos;
+        matmecanicos.push_back(eixo1);
+        matmecanicos.push_back(parafuso1);
+        matmecanicos.push_back(porca1);
+
+        cout << "Lista de materiais eletricos:" << endl;
+        for(auto matmecanico : matmecanicos){
+        cout << "Nome: " << matmecanico->getNome_Material() << endl;
+        cout << "ID: " << matmecanico->getId_Material() << endl;
+        cout << "Preco: " << matmecanico->getPreco() << endl;
+        cout << "Ip_protec: " << matmecanico->getIp_protec() << endl;
+        cout << "Peso: " << matmecanico->getPeso() << endl;
+        cout << endl;
+        }
+
+
+        //adicionar e retirar materiais elétricos
         cout << "Adicionando e retirando materiais elétricos..." << endl;
 
-        elec1->colocarMaterial(*disj1, 1);
-        elec1->retirarMaterial(*disj1, 1);
+        elec1->colocarMaterial(*disj1, 2);
 
-        elec1->colocarMaterial(*motor1, 1);
+   /*     elec1->colocarMaterial(*motor1, 1);
         elec1->retirarMaterial(*motor1, 1);
 
         elec1->colocarMaterial(*rele1, 1);
@@ -65,7 +108,7 @@ int main() {
 
         mec1->colocarMaterial(*porca1, 1);
         mec1->retirarMaterial(*porca1, 1);
+*/
 
-**/
     return 0;
 }

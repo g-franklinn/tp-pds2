@@ -4,6 +4,7 @@
 #include "../../Material/Material.hpp"
 #include "../MatMecanico.hpp"
 #include <iostream>
+#include <string>
 
 class Eixo : public MatMecanico{
     public:

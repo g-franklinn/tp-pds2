@@ -19,7 +19,7 @@ class MatEstoque: public Material{
         string getLocal();
         void baixaEstoque(int quantidade);
         void adicionar(int quantidade);
-        void setLocal(int id, const string& nome);
+        void setLocal(int id, string nome);
 
         virtual ~MatEstoque();         // Destrutor
 };

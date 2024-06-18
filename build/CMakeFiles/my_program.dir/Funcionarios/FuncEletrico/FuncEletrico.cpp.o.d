@@ -162,6 +162,6 @@ CMakeFiles/my_program.dir/Funcionarios/FuncEletrico/FuncEletrico.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Motor/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/Rele.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/../../Material/Material.hpp \
+ /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/../../Materiais/MatEletrico/Rele/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Funcionarios/FuncEletrico/FuncEletrico.hpp

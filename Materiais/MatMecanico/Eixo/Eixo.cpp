@@ -2,6 +2,7 @@
 #include "../MatMecanico.hpp"
 #include "Eixo.hpp"
 #include <iostream>
+#include <string>
 using namespace std;
 
 Eixo::Eixo(){

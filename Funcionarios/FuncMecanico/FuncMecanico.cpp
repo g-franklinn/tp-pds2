@@ -13,7 +13,7 @@ using namespace std;
 
 FuncMecanico::FuncMecanico(){};
 
-FuncMecanico::FuncMecanico(string nome, int id, string funcao) 
+FuncMecanico::FuncMecanico(string nomeFuncionario, int idFuncionario, string funcaoFuncionario) 
     : Funcionarios(nomeFuncionario, idFuncionario, funcaoFuncionario){}
 
 void FuncMecanico::colocarMaterial(Eixo eixo, int q){

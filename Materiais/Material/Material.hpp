@@ -13,14 +13,14 @@ class Material{
 
     public:
     Material();
-    Material(string nome, int id, double preco);    //Construtor padrão
+    Material(string nomeMaterial, int idMaterial, double preco);    //Construtor padrão
 
     string getNome_Material(); 
-    void setNome_Material(string nome);
-    int getId();
-    void setId(int id);
+    void setNome_Material(string new_nome);
+    int getId_Material();
+    void setId(int new_id);
     double getPreco();
-    void setPreco(double preco);
+    void setPreco(double new_preco);
 
     ~Material();    //Destrutor
 };

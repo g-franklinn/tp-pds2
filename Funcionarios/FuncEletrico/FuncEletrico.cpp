@@ -13,7 +13,7 @@ using namespace std;
 
 FuncEletrico::FuncEletrico(){};
 
-FuncEletrico::FuncEletrico(string nome, int id, string funcao) 
+FuncEletrico::FuncEletrico(string nomeFuncionario, int idFuncionario, string funcaoFuncionario) 
     : Funcionarios(nomeFuncionario, idFuncionario, funcaoFuncionario){}
 
 string FuncEletrico::getNome_Funcionario(){

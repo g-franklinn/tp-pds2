@@ -26,7 +26,7 @@ void MatEstoque::adicionar(int quantidade) {
     this->quantidade += quantidade;
 }
 
-void MatEstoque::setLocal(int id, const string& nome) {
+void MatEstoque::setLocal(int id, string nome) {
     idLocal = id;
     nomeLocal = nome;
 }

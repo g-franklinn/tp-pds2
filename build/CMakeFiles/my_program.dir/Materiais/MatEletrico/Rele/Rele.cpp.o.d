@@ -133,8 +133,6 @@ CMakeFiles/my_program.dir/Materiais/MatEletrico/Rele/Rele.cpp.o: \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/../MatEletrico.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/../../Material/Material.hpp \
  /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/Rele/Rele.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/Material/../Material/Material.hpp \
- /root/VS\ CODE/PDS2/tp-pds2/Materiais/MatEletrico/MatEletrico.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
