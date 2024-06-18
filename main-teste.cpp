@@ -1,8 +1,8 @@
 #define CATCH_CONFIG_MAIN  // Isso diz ao Catch para fornecer um main() - faça isso apenas em um arquivo .cpp
-#include "catch.hpp"
+#include "Catch2.hpp"
 #include "../Funcionarios/Funcionarios.hpp"
-#include "../Funcionarios/FuncEletrico.hpp"
-#include "../Funcionarios/FuncMecanico.hpp"
+#include "../Funcionarios/FuncEletrico/FuncEletrico.hpp"
+#include "../Funcionarios/FuncMecanico/FuncMecanico.hpp"
 #include "../Materiais/Material/Material.hpp"
 #include "../Materiais/MatEletrico/MatEletrico.hpp"
 #include "../Materiais/MatEletrico/Disjuntor/Disjuntor.hpp"
