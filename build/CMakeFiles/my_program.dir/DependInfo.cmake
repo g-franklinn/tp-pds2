@@ -21,7 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Parafuso/Parafuso.cpp" "CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o" "gcc" "CMakeFiles/my_program.dir/Materiais/MatMecanico/Parafuso/Parafuso.cpp.o.d"
   "/root/VS CODE/PDS2/tp-pds2/Materiais/MatMecanico/Porca/Porca.cpp" "CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o" "gcc" "CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o.d"
   "/root/VS CODE/PDS2/tp-pds2/Materiais/Material/Material.cpp" "CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o" "gcc" "CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o.d"
-  "/root/VS CODE/PDS2/tp-pds2/main-teste.cpp" "CMakeFiles/my_program.dir/main-teste.cpp.o" "gcc" "CMakeFiles/my_program.dir/main-teste.cpp.o.d"
+  "/root/VS CODE/PDS2/tp-pds2/main.cpp" "CMakeFiles/my_program.dir/main.cpp.o" "gcc" "CMakeFiles/my_program.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -32,7 +32,7 @@ set(SOURCES
     ${PARAFUSO_SOURCES}
     ${PORCA_SOURCES}
 
-    main-teste.cpp
+    main.cpp
 )
 
 # Include header files

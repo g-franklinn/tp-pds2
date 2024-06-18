@@ -25,8 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_program.dir/Materiais/MatMecanico/Porca/Porca.cpp.o.d"
   "CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o"
   "CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.o.d"
-  "CMakeFiles/my_program.dir/main-teste.cpp.o"
-  "CMakeFiles/my_program.dir/main-teste.cpp.o.d"
+  "CMakeFiles/my_program.dir/main.cpp.o"
+  "CMakeFiles/my_program.dir/main.cpp.o.d"
   "my_program"
   "my_program.pdb"
 )

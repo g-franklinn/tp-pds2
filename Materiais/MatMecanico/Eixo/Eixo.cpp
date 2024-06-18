@@ -10,7 +10,14 @@ Eixo::Eixo(){
 };
 
 Eixo::Eixo(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, double peso)
- : MatMecanico() {};
+ : MatMecanico() {
+    this->nomeMaterial = nomeMaterial;
+    this->idMaterial = idMaterial;
+    this->preco = preco;
+    this->quantidade = quantidade;
+    this->ip_protec = ip_protec;
+    this->peso = peso;
+ };
 
 void Eixo:: adicionarEixo(Eixo eixo, int q){
     eixo.quantidade += q;

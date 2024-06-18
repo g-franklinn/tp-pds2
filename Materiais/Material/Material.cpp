@@ -9,7 +9,7 @@ Material::Material(string nomeMaterial, int idMaterial, double preco, int quanti
     : nomeMaterial(nomeMaterial), idMaterial(idMaterial), preco(preco), quantidade(quantidade) {}
 
 string Material::getNome_Material(){
-    return nomeMaterial;
+    return this->nomeMaterial;
 }
 
 void Material::setNome_Material(string new_nome){

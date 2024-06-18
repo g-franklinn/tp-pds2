@@ -441,29 +441,29 @@ Materiais/Material/Material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/Materiais/Material/Material.cpp.s
 .PHONY : Materiais/Material/Material.cpp.s
 
-main-teste.o: main-teste.cpp.o
-.PHONY : main-teste.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-main-teste.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main-teste.cpp.o
-.PHONY : main-teste.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main-teste.i: main-teste.cpp.i
-.PHONY : main-teste.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main-teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main-teste.cpp.i
-.PHONY : main-teste.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main-teste.s: main-teste.cpp.s
-.PHONY : main-teste.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main-teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main-teste.cpp.s
-.PHONY : main-teste.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -513,9 +513,9 @@ help:
 	@echo "... Materiais/Material/Material.o"
 	@echo "... Materiais/Material/Material.i"
 	@echo "... Materiais/Material/Material.s"
-	@echo "... main-teste.o"
-	@echo "... main-teste.i"
-	@echo "... main-teste.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

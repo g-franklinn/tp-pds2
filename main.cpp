@@ -76,7 +76,7 @@ int main() {
         matmecanicos.push_back(parafuso1);
         matmecanicos.push_back(porca1);
 
-        cout << "Lista de materiais eletricos:" << endl;
+        cout << "Lista de materiais mecanicos:" << endl;
         for(auto matmecanico : matmecanicos){
         cout << "Nome: " << matmecanico->getNome_Material() << endl;
         cout << "ID: " << matmecanico->getId_Material() << endl;
@@ -88,11 +88,12 @@ int main() {
 
 
         //adicionar e retirar materiais elétricos
-     /*     cout << "Adicionando e retirando materiais elétricos..." << endl;
+         cout << "Adicionando e retirando materiais elétricos..." << endl;
 
         elec1->colocarMaterial(*disj1, 2);
+        cout << disj1->getQuantidade() << endl;
 
-       elec1->colocarMaterial(*motor1, 1);
+      /* elec1->colocarMaterial(*motor1, 1);
         elec1->retirarMaterial(*motor1, 1);
 
         elec1->colocarMaterial(*rele1, 1);

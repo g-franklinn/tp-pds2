@@ -8,7 +8,7 @@
 using std::string;
 
 class MatEletrico : public MatEstoque{
-    private:
+    protected:
         int tensao;
         int corrente;
         string ip_protec;

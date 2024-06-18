@@ -10,7 +10,15 @@ using namespace std;
 Rele::Rele(){};
 
 Rele::Rele(string nomeMaterial, int idMaterial, double preco, int quantidade, string ip_protec, int tensao, int corrente)
-: MatEletrico() {};
+: MatEletrico() {
+    this->nomeMaterial = nomeMaterial;
+    this->idMaterial = idMaterial;
+    this->preco = preco;
+    this->quantidade = quantidade;
+    this->ip_protec = ip_protec;
+    this->tensao = tensao;
+    this->corrente = corrente;
+};
 
 void Rele::adicionarRele(Rele rele, int quant){
     rele.quantidade += quant;
