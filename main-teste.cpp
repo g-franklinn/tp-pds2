@@ -12,6 +12,7 @@
 #include "../Materiais/MatMecanico/Eixo/Eixo.hpp"
 #include "../Materiais/MatMecanico/Parafuso/Parafuso.hpp"
 #include "../Materiais/MatMecanico/Porca/Porca.hpp"
+#include "../Materiais/MatEstoque/MatEstoque.hpp"
 
 TEST_CASE("Criação de Funcionário Elétrico") {
     FuncEletrico elec1("Guido", 101, "Eletricista");
